@@ -1,0 +1,160 @@
+<html>
+    <head>
+        <title>Catalogue de Jeux</title>
+        <style>
+            body {
+                background-color: #f5f5f5;
+                font-family: Monospace, sans-serif;
+            }
+
+            header {
+                background-color: #0b1f4d;
+                color: #f5e6c8;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 20px 40px;
+                border-bottom: 4px solid #ffffff;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+
+            h1 {
+                margin: 0;
+                font-size: 32px;
+            }
+
+            nav {
+                flex: 1;
+                text-align: center;
+            }
+
+            nav a {
+                color: #fcf2df;
+                margin: 0 15px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+            nav a:hover {
+                text-decoration: underline;
+            }
+
+            main {
+                padding: 20px;
+            }
+
+            #Accueil {
+                margin-top: 30px;
+            }
+
+            .games-row {
+                display: flex;
+                justify-content: space-between;
+                gap: 20px;
+                flex-wrap: wrap;
+            }
+
+            .games-row article {
+                width: 30%;
+                min-width: 220px;
+                background-color: #ffffff;
+                padding: 15px;
+                box-sizing: border-box;
+                border: 1px solid #ddd;
+            }
+
+            .games-row article h3 {
+                margin: 0 0 10px 0;
+                text-align: center;
+            }
+
+            .games-row article img {
+                display: block;
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                margin-bottom: 10px;
+            }
+
+            .games-row article p {
+                margin: 6px 0;
+            }
+            .buy-button {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #0b1f4d;
+                color: #ffffff;
+                text-decoration: none;
+                border-radius: 5px;
+                transition: background-color 0.3s ease;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Catalogue de Jeux</h1>
+            <nav>
+                <a href="#Accueil">Accueil</a>
+                <a href="#À la une">À la une</a>
+                <a href="#categories">Catégories</a>
+                <a href="#À propos">À propos</a>
+            </nav>
+        </header>
+
+        <main id="Accueil">
+            <section>
+                <h2>Bienvenue dans notre catalogue de jeux</h2>
+                <p>Découvrez les meilleurs jeux pour chaque humeur, des aventures d'action aux défis de sport et de course.</p>
+            </section>
+
+            <section id="À la une">
+                <h2>Jeux à la une</h2>
+
+                <div class="games-row">
+                    <article>
+                        <h3>Elen ring</h3>
+                        <img src="a4ji1zpv9ap81.jpg" alt="Image du jeu Elen ring" width="100px" height="100px">
+                        <p>Genre : Action-RPG</p>
+                        <p>Un jeu d'action-RPG avec un système de combat fluide et des quêtes captivantes.</p>
+                        <a href="https://eldenring.wiki.fextralife.com/Elden_Ring_Wiki" class="buy-button">Acheter</a>
+                    </article>
+
+                    <article>
+                        <h3>Resedent Evil 4</h3>
+                        <img src="images.jpeg" alt="Image du jeu Resident Evil 4">
+                        <p>Un jeu d'horreur de survie avec un scénario captivant et des ennemis redoutables.</p>
+                        <a href="https://residentevil.fandom.com/wiki/Resident_Evil_4_(2005)" class="buy-button">Acheter</a>
+                    </article>
+
+                    <article>
+                        <h3>League of Legends</h3>
+                        <img src="17214947-league-of-legends-windows-front-cover.jpg" alt="Image du jeu League of Legends">
+                        <p>Batailles en équipe, tactiques intelligentes et matchs compétitifs en ligne.</p>
+                        <a href="https://leagueoflegends.com/" class="buy-button">Acheter</a>
+                    </article>
+                </div>
+            </section>
+
+            <section id="categories">
+                <h2>Parcourir par catégorie</h2>
+                <ul>                        
+                    <li>Action</li>
+                    <li>Aventure</li>
+                    <li>Course</li>
+                    <li>Sport</li>
+                    <li>RPG</li>
+                    <li>Stratégie</li>
+                </ul>
+            </section>
+
+            <section id="À propos">
+                <h2>À propos de ce catalogue</h2>
+                <p>Ce site présente une simple collection de jeux populaires.Ce site est en cours de développement.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>Catalogue de Jeux</p>
+        </footer>
+    </body>
+</html>
